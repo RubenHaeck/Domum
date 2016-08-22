@@ -12,7 +12,7 @@ namespace Domum.Data.Domain
     public class Configuration
     {
         [Key]
-        public int ConfigId { get; set; }
+        public int ConfigID { get; set; }
         public string ConfigKey { get; set; }
 
         public string ConfigValue { get; set; }

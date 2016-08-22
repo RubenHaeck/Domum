@@ -50,7 +50,7 @@ namespace Domum.Data.Tests
         {
             var newConfiguration = new Configuration()
             {
-                ConfigId = 2,
+                ConfigID = 2,
                 ConfigKey = "TEST",
                 ConfigValue = "Ruben"
             };

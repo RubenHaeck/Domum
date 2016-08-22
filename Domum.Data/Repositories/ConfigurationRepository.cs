@@ -15,7 +15,7 @@ namespace Domum.Data.Repositories
             // Nog ff wachten met Ioc container
             using (DomumContext context = new DomumContext())
             {
-                return context.Configurations.SingleOrDefault(c => c.ConfigId == id);
+                return context.Configurations.SingleOrDefault(c => c.ConfigID == id);
             }
         }
 
