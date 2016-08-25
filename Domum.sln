@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domum.Site", "Domum.Site\Domum.Site.csproj", "{ADFE2FA2-0F49-457E-9BD0-083E6423DEEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domum.Api", "Domum.Api\Domum.Api.csproj", "{91F5B700-AEA4-447E-856E-5D96525ACABF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domum.Data", "Domum.Data\Domum.Data.csproj", "{5C27128D-D0E5-4AB2-BB55-F571BA99A3B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CF660256-EFA7-47DB-831A-66A101BB1933}"
@@ -14,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domum.Data.Tests", "Domum.Data.Tests\Domum.Data.Tests.csproj", "{08D19C44-0D28-4E9A-A205-3816D2072B27}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domum.Notification", "Domum.Notification\Domum.Notification.csproj", "{44DB56E5-3BC4-4FCB-B8E0-9F3E7AD2E710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domum.Data.NH", "Domum.Data.NH\Domum.Data.NH.csproj", "{31D117D8-42D7-46B1-8374-874915234434}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		{ADFE2FA2-0F49-457E-9BD0-083E6423DEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADFE2FA2-0F49-457E-9BD0-083E6423DEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADFE2FA2-0F49-457E-9BD0-083E6423DEEE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91F5B700-AEA4-447E-856E-5D96525ACABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91F5B700-AEA4-447E-856E-5D96525ACABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91F5B700-AEA4-447E-856E-5D96525ACABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91F5B700-AEA4-447E-856E-5D96525ACABF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C27128D-D0E5-4AB2-BB55-F571BA99A3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C27128D-D0E5-4AB2-BB55-F571BA99A3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C27128D-D0E5-4AB2-BB55-F571BA99A3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +37,10 @@ Global
 		{44DB56E5-3BC4-4FCB-B8E0-9F3E7AD2E710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44DB56E5-3BC4-4FCB-B8E0-9F3E7AD2E710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44DB56E5-3BC4-4FCB-B8E0-9F3E7AD2E710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D117D8-42D7-46B1-8374-874915234434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D117D8-42D7-46B1-8374-874915234434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D117D8-42D7-46B1-8374-874915234434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D117D8-42D7-46B1-8374-874915234434}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
